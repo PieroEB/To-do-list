@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" type="text/javascript" defer></script>
+
+</head>
+<header class="header">
+    <h1>Piero Espinoza</h1>
+    <p><b>programmer</b></p>
+</header>
+<body>
+    <div class="list borderlist">
+        <div class="title"><b> TO DO LIST </b></div>
+        <div class="date">
+            <div class="dateRight">
+                
+        </div>
+
+    </div>
+    <form onsubmit="addNewTask(event)" >
+        <input type="text" name="taskText" autocomplete="off" placeholder="write homework" class="roundBorder">
+        <button type="submit" class="addTaskButton">+</button>
+        </form>
+    <div id="tasksContainer"></div>
+    
+</body>
+</html>
